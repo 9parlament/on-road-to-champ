@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/rangiffler-auth"
+    username: postgres
+    password: postgres
+rangiffler-front:
+  base-uri: "http://localhost:3001/"
